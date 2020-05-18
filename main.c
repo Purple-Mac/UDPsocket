@@ -2,7 +2,7 @@
 //  main.c
 //  malware_assign
 //
-//  Created by 노혜윤 on 2020/05/13.
+//  Created by hxxyxxn1238 on 2020/05/13.
 //  Copyright © 2020 hxxyxxn. All rights reserved.
 //
 
@@ -17,7 +17,7 @@
 #include <string.h>//메모리 블록이나 문자열을 다룰수 있는 함수
 #define BUFLEN 10000 //버퍼의 최대크기를 10000으로 지정해준다
 
-int encoding(char num[N])
+int encoding(char num[N]) //인코딩을 해보자.. ^^
 {
     FILE*fp = fopen("enconding.txt", "wt");
     int i = 0; int cnt = 1, idx = 0;
